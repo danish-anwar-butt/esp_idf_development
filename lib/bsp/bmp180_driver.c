@@ -34,7 +34,7 @@ void bmp180_init() {
     calib.md = bmp180_read_short(0xBE);
     
     // Print calibration data for debugging
-    print_calibration_data();
+    // print_calibration_data();
 }
 
 
